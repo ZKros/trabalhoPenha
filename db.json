@@ -1,0 +1,49 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"user": "daniel",
+			"password": "123456",
+			"nome": "Daniel",
+			"idade": 20,
+			"email": "daniel@daniel.com",
+			"telefone": "(27)99696-7421"
+		},
+		{
+			"id": 2,
+			"user": "enivaldo",
+			"password": "123456",
+			"nome": "Enivaldo",
+			"idade": 30,
+			"email": "enivaldo@enivaldo.com",
+			"telefone": "(27)99191-7226"
+		},
+		{
+			"id": 3,
+			"user": "jussara",
+			"password": "123456",
+			"nome": "Jussara",
+			"idade": 25,
+			"email": "jussara@jussara.com",
+			"telefone": "(27)99293-7228"
+		},
+		{
+			"id": 4,
+			"user": "luca",
+			"password": "123456",
+			"nome": "Luca",
+			"idade": 26,
+			"email": "luca@luca.com",
+			"telefone": "(27)99792-7224"
+		},
+		{
+			"id": 5,
+			"user": "gabriel",
+			"password": "123456",
+			"nome": "Gabriel",
+			"idade": 23,
+			"email": "gabriel@gabriel.com",
+			"telefone": "(27)99194-7782"
+		}
+	]
+}

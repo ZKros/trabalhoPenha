@@ -1,0 +1,80 @@
+<section>
+  <div id="login">
+    <form class="card" [formGroup]="form">
+      <div class="card-header">
+        <h2>Informações do Usuário</h2>
+      </div>
+
+      <div class="card-content">
+        <div class="card-content-area">
+          <label for="usuario">Usuário</label>
+
+          <input
+            formControlName="user"
+            type="text"
+            id="usuario"
+            autocomplete="off"
+            [disabled]="true"
+          />
+        </div>
+
+        <div class="card-content-area">
+          <label for="nome">Nome</label>
+
+          <input
+            formControlName="nome"
+            type="text"
+            id="nome"
+            autocomplete="off"
+            [disabled]="true"
+          />
+        </div>
+
+        <div class="card-content-area">
+          <label for="idade">Idade</label>
+
+          <input
+            formControlName="idade"
+            type="text"
+            id="idade"
+            autocomplete="off"
+            [disabled]="true"
+          />
+        </div>
+
+        <div class="card-content-area">
+          <label for="Email">Email</label>
+
+          <input
+            formControlName="email"
+            type="text"
+            id="Email"
+            autocomplete="off"
+            [disabled]="true"
+          />
+        </div>
+
+        <div class="card-content-area">
+          <label for="Telefone">Telefone</label>
+
+          <input
+            formControlName="telefone"
+            type="text"
+            id="Telefone"
+            autocomplete="off"
+            [disabled]="true"
+          />
+        </div>
+      </div>
+
+      <div class="card-footer">
+        <input
+          type="submit"
+          routerLink="/login"
+          value="Voltar para a Tela de Login"
+          class="submit"
+        />
+      </div>
+    </form>
+  </div>
+</section>
