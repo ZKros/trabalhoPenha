@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { ReactiveFormsModule } from '@angular/forms';
 import { CadastroFormComponent } from './cadastro-form.component';
 
 describe('CadastroFormComponent', () => {
@@ -8,9 +9,9 @@ describe('CadastroFormComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CadastroFormComponent ]
-    })
-    .compileComponents();
+      imports: [ReactiveFormsModule],
+      declarations: [CadastroFormComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(CadastroFormComponent);
     component = fixture.componentInstance;
